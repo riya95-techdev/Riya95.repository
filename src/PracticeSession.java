@@ -157,9 +157,7 @@ public class PracticeSession {
 //            default ->
 //                    System.out.println("invalid input please try again.");
 //        }
-
-
-
+        
 
     }
 }
