@@ -16,24 +16,32 @@ public class BookManagementProject {
                 Enter 5 to exit :
                 """;
         int userInput;
+        String bookName;
         do{
-            System.out.print(message);
+            System.out.println(message);
             userInput = riya.nextInt();
 
             switch (userInput){
                 case 1:
+                    System.out.println("jo book list mein add karni hai uska name enter kijiye : ");
+                    bookName = riya.nextLine();
+                    bookName = riya.nextLine();
+                    System.out.println("book adding in progress...");
+                    books.add(bookName);
+                    System.out.println("book added successfully...");
                     break;
                 case 2:
+                    System.out.println(books);
                     break;
                 case 3:
                     break;
                 case 4:
                     break;
                 case 5:
-                    System.out.Println("Thanks for using this program!");
+                    System.out.println("Thanks for using this program!");
                     break;
                 default:
-                    System.out.Println("Invalid input ! please tru again.");
+                    System.out.println("Invalid input ! please tru again.");
                     break;
 
             }

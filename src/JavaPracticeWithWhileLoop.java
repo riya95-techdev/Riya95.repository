@@ -129,5 +129,12 @@ public class JavaPracticeWithWhileLoop {
 //        }
 //        lcm= ((a*b)/gcd);   //lcm of above two numbers
 //        System.out.print("LCM : "+lcm);
+
+        //9. wap to ahthorization
+
+        String password;
+        while (true){
+            System.out.print("enter password : ");
+        }
     }
 }
