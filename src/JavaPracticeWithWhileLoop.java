@@ -129,6 +129,6 @@ public class JavaPracticeWithWhileLoop {
 //        }
 //        lcm= ((a*b)/gcd);   //lcm of above two numbers
 //        System.out.print("LCM : "+lcm);
-        
+
     }
 }

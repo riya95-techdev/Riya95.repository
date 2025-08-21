@@ -84,11 +84,9 @@ public class PracticeSession {
 //                    System.out.println("The day of Shanidev, its Saturday.");
 //                case 8->
 //                        System.out.println("Exited Successfully.");
-//
 //                default->
 //                    System.out.println("Invalid Number! Please try again");
 //            }
-//
 //        }while(dayNumber<=7);
 
 
@@ -124,40 +122,41 @@ public class PracticeSession {
 //        }while(i<=3);
 //        System.out.println("List of favorite food : "+listOfFavoriteFood);
 
-//        double num1 ,num2,result;
-//        System.out.println("enter two numbers for performing calculation : ");
-//        num1 = riya.nextDouble();
-//        num2 = riya.nextDouble();
-//        String message= """
-//                       enter '+' for performing addition
-//                       enter '-' for performing subtraction
-//                       enter '*' for performing multiplication
-//                       enter '/' for performing division
-//                       """;
-//        char operator;
-//        System.out.println(message);
-//        operator = riya.next().charAt(0);
-//        switch(operator){
-//            case '+'->{
-//                        result=num1+num2;
-//                        System.out.println("Addition of two entered numbers : "+result);
-//            }
-//            case '-'->{
-//                    result=num1-num2;
-//                    System.out.println("Subtraction of two entered numbers : "+result);
-//            }
-//            case '*'->{
-//                    result=num1*num2;
-//                    System.out.println("Multiplication of two entered numbers : "+result);
-//            }
-//            case'/'->{
-//                    result=num1/num2;
-//                    System.out.println("Division of two entered numbers : "+result);
-//            }
-//            default ->
-//                    System.out.println("invalid input please try again.");
-//        }
-        
+
+        double num1 ,num2,result;
+        System.out.println("enter two numbers for performing calculation : ");
+        num1 = riya.nextDouble();
+        num2 = riya.nextDouble();
+        String message= """
+                       enter '+' for performing addition
+                       enter '-' for performing subtraction
+                       enter '*' for performing multiplication
+                       enter '/' for performing division
+                       """;
+        char operator;
+        System.out.println(message);
+        operator = riya.next().charAt(0);
+        switch(operator){
+            case '+'->{
+                        result=num1+num2;
+                        System.out.println("Addition of two entered numbers : "+result);
+            }
+            case '-'->{
+                    result=num1-num2;
+                    System.out.println("Subtraction of two entered numbers : "+result);
+            }
+            case '*'->{
+                    result=num1*num2;
+                    System.out.println("Multiplication of two entered numbers : "+result);
+            }
+            case'/'->{
+                    result=num1/num2;
+                    System.out.println("Division of two entered numbers : "+result);
+            }
+            default ->
+                    System.out.println("invalid input please try again.");
+        }
+
 
     }
 }
