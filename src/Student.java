@@ -3,16 +3,21 @@ import java.util.List;
 public class Student {
     private int studentId;
     private String studentName;
+
     private List<Double> studentMarks;
 
+    //non-argument constructor
     public Student() {}
 
+    //all-argument constructor
     public Student(int studentId, String studentName, List<Double> studentMarks) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.studentMarks = studentMarks;
     }
 
+
+    //getter and setter methods
     public int getStudentId() {
         return studentId;
     }
@@ -37,7 +42,7 @@ public class Student {
         this.studentMarks = studentMarks;
     }
 
-    //working methods :
+    //working method :
     public double averageOfStudentMarks(){
         double sum=0;
         int length = studentMarks.size();
@@ -46,6 +51,8 @@ public class Student {
         }
         return sum / length;
     }
+
+    //.toString() method
     @Override
     public String toString() {
         return "Student{" +

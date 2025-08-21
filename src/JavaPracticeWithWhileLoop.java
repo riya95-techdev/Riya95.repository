@@ -112,23 +112,23 @@ public class JavaPracticeWithWhileLoop {
 
 //        //8. wap to Find LCM of two numbers
 //        //Explanation: LCM = (a×b)/GCD
-//        System.out.print("please enter two numbers to find their LCM : ");
-//        int a,b,min,i,gcd=0,lcm=0;
-//        a= riya.nextInt();
-//        b= riya.nextInt();
-//
-//        if(a<b)
-//            min=a;
-//        else
-//            min=b;
-//        i=1;
-//        while(i<=min){
-//            if( a%i == 0 && b%i == 0)       // condition to find greatest common divisor of two numbers
-//                gcd = i;
-//            i++;
-//        }
-//        lcm= ((a*b)/gcd);   //lcm of above two numbers
-//        System.out.print("LCM : "+lcm);
+        System.out.print("please enter two numbers to find their LCM : ");
+        int a,b,min,i,gcd=0,lcm=0;
+        a= riya.nextInt();
+        b= riya.nextInt();
+
+        if(a<b)
+            min=a;
+        else
+            min=b;
+        i=1;
+        while(i<=min){
+            if( a%i == 0 && b%i == 0)       // condition to find greatest common divisor of two numbers
+                gcd = i;
+            i++;
+        }
+        lcm= ((a*b)/gcd);   //lcm of above two numbers
+        System.out.print("LCM : "+lcm);
 
     }
 }
